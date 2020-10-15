@@ -1,0 +1,15 @@
+.search {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+}
+.search:hover {
+    -fx-background-color: #3e8e41;
+}
+.search:pressed{
+    -fx-background-color: #3e8e41;
+    -fx-border-width: 2px;
+    -fx-border-color: white;
+}
+.background{
+    -fx-background-color:blue ;
+}

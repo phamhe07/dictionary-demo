@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="286.0" prefWidth="359.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dictionary.Controller">
+   <children>
+      <Label contentDisplay="CENTER" layoutX="126.0" layoutY="6.0" prefHeight="38.0" prefWidth="134.0" text="Update">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <TextField layoutX="167.0" layoutY="66.0" />
+      <Text layoutX="14.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Current Word">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <TextField layoutX="166.0" layoutY="128.0" />
+      <Text layoutX="43.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New Word">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <TextField layoutX="166.0" layoutY="185.0" />
+      <Text layoutX="16.0" layoutY="209.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Word Explain">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Button layoutX="63.0" layoutY="241.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="65.0" text="Save" />
+      <Button layoutX="228.0" layoutY="241.0" mnemonicParsing="false" text="Cancel" />
+   </children>
+</AnchorPane>

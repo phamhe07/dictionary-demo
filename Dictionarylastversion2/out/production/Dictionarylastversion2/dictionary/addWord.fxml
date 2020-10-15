@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="scence" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="255.0" prefWidth="359.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dictionary.Controller">
+   <children>
+      <Label layoutX="123.0" layoutY="14.0" text="Add Word">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <TextField fx:id="target1" layoutX="167.0" layoutY="71.0" promptText="apple" />
+      <TextField fx:id="explain1" layoutX="167.0" layoutY="152.0" promptText="quả táo" />
+      <Button fx:id="saveadd" layoutX="59.0" layoutY="211.0" mnemonicParsing="false" onAction="#savingadd" prefHeight="31.0" prefWidth="64.0" text="Save" />
+      <Button fx:id="canceladd" layoutX="229.0" layoutY="211.0" mnemonicParsing="false" text="Cancel" />
+      <Text layoutX="14.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Word Target" wrappingWidth="135.0">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text layoutX="14.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Word Explain">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
